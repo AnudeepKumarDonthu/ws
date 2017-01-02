@@ -1,0 +1,40 @@
+/**
+ * 
+ */
+package com.json.practice;
+
+import java.io.StringWriter;
+import java.util.ArrayList;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class SampleJSONObject {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		JSONObject obj = new JSONObject();
+		JSONArray jsonarray= new JSONArray();
+		try {
+			obj.put("name", "Anudeep Kumar");
+			obj.put("age", 25);
+			obj.put("alive", true);
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println(obj);
+		jsonarray.put(true);
+		jsonarray.put(new ArrayList<String>());
+		jsonarray.put(obj);
+		System.out.println(jsonarray);
+	}
+
+}
