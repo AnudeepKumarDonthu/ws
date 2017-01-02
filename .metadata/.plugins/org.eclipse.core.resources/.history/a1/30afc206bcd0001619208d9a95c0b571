@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JSON Array Pactice</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var personArray={"uma":[
+			{"umafullname":"Akurathi Uma Maheshwari","umaage":24},
+			{"umafullname":"Akurathi Uma ","umaage":23}]
+		
+		
+		var i = 0;
+		document.writeln("Array Test");
+        document.write(personArray.uma.length);
+	</script>
+</body>
+</html>

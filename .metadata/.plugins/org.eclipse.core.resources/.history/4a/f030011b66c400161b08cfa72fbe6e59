@@ -1,0 +1,84 @@
+/**
+ * 
+ */
+package co.test;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+interface testInterface {
+	int i = 0;
+
+	public abstract void interfaceMethod();
+}
+
+abstract class Sample {
+	public abstract void test1();
+
+	public abstract void test2();
+
+	public abstract void test3();
+
+}
+
+abstract class Sample1 extends Sample implements testInterface {
+	public void test1() {
+
+	}
+}
+
+class Sample2 extends Sample1 {
+
+	@Override
+	public void interfaceMethod() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void test1() {
+
+	}
+
+	@Override
+	public void test2() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void test3() {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+public class AbstractTest {
+
+	/**
+	 * @param args
+	 */
+	public static int j = 0;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer> l =new ArrayList<Integer>();
+		for(int i=1;i<=100;i++){
+			l.add(i);
+		}
+		l.remove(20);
+		l.remove(21);
+		l.remove(22);
+		for(int i=0;i<=100;i++){
+			if(!l.contains(i)){
+				System.out.println(i+" Missing");
+			}
+		}
+
+	}
+
+}

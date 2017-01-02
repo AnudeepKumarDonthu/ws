@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package co.test;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+interface testInterface {
+	int i=0;
+	public void interfaceMethod();
+}
+abstract class Sample{
+	public abstract void test1();
+	public abstract void test2();
+	public abstract void test3();
+	
+}
+abstract class Sample1 extends Sample{
+	public abstract void test1();
+}
+public class AbstractTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

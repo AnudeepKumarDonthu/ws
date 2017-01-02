@@ -1,0 +1,7 @@
+package com.practice.model;
+
+public class Excercise {
+	
+	private String minute;
+
+}

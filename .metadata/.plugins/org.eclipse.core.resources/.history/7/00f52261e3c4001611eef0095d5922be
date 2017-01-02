@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package co.test;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+class A {
+
+}
+
+class B extends A {
+
+}
+
+public class InheritenceTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		A a = new A();
+		B b = new B();
+		if (a instanceof B) {
+			System.out.println("a and b are equal");
+		}
+	}
+
+}

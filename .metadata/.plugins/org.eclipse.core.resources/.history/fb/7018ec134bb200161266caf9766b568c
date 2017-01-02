@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package com.practice;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class ExcelPractice {
+
+	/**
+	 * @param args
+	 * @throws IOException
+	 */
+	public static void main(String[] args) throws IOException {
+
+		Workbook wb = new XSSFWorkbook();
+		FileOutputStream fos = new FileOutputStream(
+				"C:\\Users\\Anudeep Kumar\\Desktop\\Study\\ws\\ExcelPractice\\excelfile\\practice.xlsx");
+		System.out.println("File  Created..");
+		wb.write(fos);
+		fos.close();
+	}
+
+}

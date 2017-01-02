@@ -1,0 +1,9 @@
+127.0.0.1 - - [18/Dec/2016:11:32:24 +0530] "GET / HTTP/1.1" 404 1000
+0:0:0:0:0:0:0:1 - - [18/Dec/2016:11:32:57 +0530] "GET /MyBooks/BookStore.jsp HTTP/1.1" 200 1094
+0:0:0:0:0:0:0:1 - - [18/Dec/2016:11:32:58 +0530] "GET /favicon.ico HTTP/1.1" 404 1022
+0:0:0:0:0:0:0:1 - - [18/Dec/2016:11:33:06 +0530] "GET /MyBooks/BuyBook.jsp HTTP/1.1" 200 1759
+0:0:0:0:0:0:0:1 - - [18/Dec/2016:11:33:16 +0530] "GET /MyBooks/ReturnBook.jsp HTTP/1.1" 200 1275
+0:0:0:0:0:0:0:1 - - [18/Dec/2016:11:33:22 +0530] "GET /MyBooks/ReturnBook.jsp HTTP/1.1" 200 1275
+0:0:0:0:0:0:0:1 - - [18/Dec/2016:11:33:26 +0530] "GET /MyBooks/BuyBook.jsp HTTP/1.1" 200 1759
+0:0:0:0:0:0:0:1 - - [18/Dec/2016:11:33:50 +0530] "GET /MyBooks/mybook?BookName=hfghg&BookAuthor=gfgfg&BookType=story&BuyRent=rent&submit=Buy%2FRent HTTP/1.1" 200 580
+0:0:0:0:0:0:0:1 - - [18/Dec/2016:11:34:03 +0530] "GET /MyBooks/ViewServlet HTTP/1.1" 200 599

@@ -1,0 +1,21 @@
+package com.org.serviceimpl;
+
+import com.org.dao.Expenses;
+import com.org.daoimpl.ExpensesImpl;
+import com.org.pojo.UserDetails;
+import com.org.service.ExpensesService;
+
+public class ExpensesServiceImpl implements ExpensesService {
+
+	Expenses e = new ExpensesImpl();
+
+	public boolean registerUser(UserDetails u) {
+		int i = e.registerUser(u);
+		if (i == 1) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+}

@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package co.test;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+
+class test {
+
+	void display(String s) {
+		System.out.println(s);
+	}
+
+	void display(Object s) {
+		System.out.println(s);
+	}
+}
+
+public class OverloadingTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+package co.test;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class HashCodeTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Object i1="Anudeep";
+		Object i2="Kumar";
+		String a ="donthu";
+		String b ="lahkjdhf";
+		HashCodeTest h1=new HashCodeTest();
+		HashCodeTest h2=new HashCodeTest();
+		HashCodeTest h3=new HashCodeTest();
+		HashCodeTest h4=new HashCodeTest();
+		if(i1.equals(i2)){
+			System.out.println("equals method");
+		}
+		else{
+			System.out.println("Not Equal");
+		}
+		if(i1==i2){
+			System.out.println("2 equals To");
+		}
+		else{
+			System.out.println("Not Equal");
+		}
+		System.out.println(h1==h2);
+		System.out.println(h3.equals(h4));
+		System.out.println(i1.hashCode());
+		System.out.println(i1.hashCode());
+		System.out.println(a.hashCode());
+		System.out.println(b.hashCode());
+	}
+
+}

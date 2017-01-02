@@ -1,0 +1,48 @@
+/**
+ * 
+ */
+package co.test;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+
+class Test {
+
+	float display(float s,float s1) {
+		System.out.println("String      " + s);
+		return s+s1;
+	}
+
+	int display(int s,int s1) {
+		System.out.println("Object      " + s);
+		return s+s1;
+	}
+	public void variableargs(int...i){
+		for(int ival:i){
+			System.out.println(ival+ival+ival+ival+ival);
+		}
+		
+	}
+}
+
+public class OverloadingTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int j=200000000;
+		Integer i =Integer.valueOf(j);
+		System.out.println("Bytes "+Double.BYTES);
+		Test t = new Test();
+		OverloadingTest o = new OverloadingTest();
+		System.out.println(t.display(1,2));
+		System.out.println(t.display(1.1f,1.2f));
+		t.variableargs(1,2,3,4);
+
+	}
+
+}

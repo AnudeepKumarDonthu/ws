@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>JSON Practice</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var jsonobject = {
+			"myname" : "Anudeep Kumar",
+			"myage" : 25
+		};
+		document.write("<h1>My Name:" + jsonobject.myname + "</h1>")
+		document.write("<h1>My Age:" + jsonobject.myage + "</h1>")
+	</script>
+</body>
+</html>

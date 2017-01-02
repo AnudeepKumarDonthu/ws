@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package co.test;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+
+class Test {
+
+	float display(int s,int s1) {
+		System.out.println("String      " + s);
+		return 1.1f;
+	}
+
+	int display(int s,int s1) {
+		System.out.println("Object      " + s);
+		return 1;
+	}
+}
+
+public class OverloadingTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Test t = new Test();
+		OverloadingTest o = new OverloadingTest();
+		t.display(null);
+		t.display(0);
+
+	}
+
+}

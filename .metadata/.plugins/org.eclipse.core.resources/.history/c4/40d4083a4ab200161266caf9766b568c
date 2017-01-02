@@ -1,0 +1,31 @@
+/**
+ * 
+ */
+package com.practice;
+
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+
+import org.apache.poi.hssf.usermodel.HSSFWorkbook;
+import org.apache.poi.ss.usermodel.Workbook;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class ExcelPractice {
+
+	/**
+	 * @param args
+	 * @throws FileNotFoundException 
+	 */
+	public static void main(String[] args) throws FileNotFoundException {
+
+		Workbook wb = new HSSFWorkbook();
+		FileOutputStream fos = new FileOutputStream(
+				"C:\\Users\\Anudeep Kumar\\Desktop\\Study\\ws\\ExcelPractice\\excelfile\\practice.xls");
+		wb.write(fos);
+		fos.close();
+	}
+
+}

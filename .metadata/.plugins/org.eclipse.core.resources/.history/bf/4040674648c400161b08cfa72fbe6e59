@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package co.test;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class HashCodeTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Object i1=100;
+		Object i2=100;
+		if(i1.equals(i2)){
+			System.out.println("equals method");
+		}
+		if(i1==i2){
+			System.out.println("2 equals To");
+		}
+		
+	}
+
+}
