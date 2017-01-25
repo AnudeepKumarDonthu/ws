@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+
+public class ExceptionTest {
+
+	private static MySingleton myObj;
+
+	static {
+		myObj = new MySingleton();
+	}
+
+	private MySingleton(){
+     
+    }
+
+	public static MySingleton getInstance() {
+		return myObj;
+	}
+
+	public void testMe() {
+		System.out.println("Hey.... it is working!!!");
+	}
+
+	public static void main(String a[]) {
+		ExceptionTest ms = ExceptionTest();
+		ms.testMe();
+	}-
+
+	See more at:http:// www.java2novice.com/java-interview-programs/java-singleton/#sthash.fHr3GeHe.dpuf
+
+}

@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale.Category;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class ExceptionTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		SimpleDateFormat sd = new SimpleDateFormat("dd-MMM-yyyy");
+		String date="06-Jan-2017";
+		try {
+			System.out.println(sd.parse(date)); //Fri Jan 06 00:00:00 IST 2017
+			System.out.println(sd.format(sd.parse(date))); //06-Jan-2017
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

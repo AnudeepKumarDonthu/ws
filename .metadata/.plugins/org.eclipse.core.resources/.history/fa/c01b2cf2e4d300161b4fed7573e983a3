@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale.Category;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class ExceptionTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String s  = "welcome";
+		int l = s.length();
+		for(int i=l;i<=l;i++){
+			System.out.println(s.substring(0, i));
+		}
+
+	}
+
+}

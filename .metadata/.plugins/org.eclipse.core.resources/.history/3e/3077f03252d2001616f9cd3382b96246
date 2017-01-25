@@ -1,0 +1,26 @@
+package com.org.practice;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+class A {
+
+	static {
+		System.out.println("I am in A class Static block");
+	}
+	{
+		System.out.println("I am in A class normal block");
+	}
+}
+
+public class BlocksPractice {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

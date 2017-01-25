@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+import java.util.Locale.Category;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class ExceptionTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) throws ArithmeticException {
+		try {
+			System.out.println("I am in try");
+		}
+		catch(Exception e){
+			System.out.println("I am exception catch");
+		}
+
+	}
+
+}

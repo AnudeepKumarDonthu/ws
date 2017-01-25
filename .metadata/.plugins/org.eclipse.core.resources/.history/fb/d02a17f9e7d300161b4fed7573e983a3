@@ -1,0 +1,36 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.StringTokenizer;
+import java.util.Locale.Category;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class ExceptionTest {
+
+	/**
+	 * @param args
+	 */
+	void method(int...k){
+		for(int i:k){
+			System.out.print(i);
+		}
+		System.out.println("\n");
+	}
+	public static void main(String[] args) {
+		ExceptionTest e = new ExceptionTest();
+		e.method(1,2,3);
+		e.method(1,2,3,4);
+		e.method(1,2,3,4,5);
+	}
+
+}

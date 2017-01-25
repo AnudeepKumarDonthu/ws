@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+import java.util.Locale.Category;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class ExceptionTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		public class A {
+			int add(int i, int j) {
+				return i + j;
+			}
+		}
+		public class B extends A {
+			public static void main(String argv[]) {
+				short s = 9;
+				System.out.println(add(s, 6));
+			}
+		}
+
+	}
+
+}

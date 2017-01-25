@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+abstract class A {
+	
+}
+class B extends A{
+	
+}
+public class NoMainMethod {
+	 static {
+		System.out.println("I am static Block");
+	}
+
+}

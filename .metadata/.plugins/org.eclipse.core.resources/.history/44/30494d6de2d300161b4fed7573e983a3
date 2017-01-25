@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+import java.util.Locale.Category;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class ExceptionTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String s = "12 hi when 8 and 9";
+		s = s.replaceAll("[^0-9]+", " ");
+
+		String[] numbersArray = s.split(" ");
+		Integer sum = 0;
+		for (int i = 0; i < numbersArray.length; i++) {
+			if (numbersArray[i].trim().length() != 0) {
+				Integer value = Integer.valueOf(numbersArray[i].trim());
+				sum = sum + value;
+
+			}
+		}
+
+		System.out.println(sum);
+
+	}
+
+}

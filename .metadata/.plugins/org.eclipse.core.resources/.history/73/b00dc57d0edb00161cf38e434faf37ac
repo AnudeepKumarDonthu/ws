@@ -1,0 +1,21 @@
+package com.org.practice;
+
+import java.util.Date;
+
+public class SendEmailTest {
+
+	private void Main() {
+		// TODO Auto-generated method stub
+		SimpleMailMessage msg = new SimpleMailMessage(this.mailMessage);
+		System.out.println("Simple Mail Message" + msg.toString());
+		Date date = new Date();
+		msg.setSentDate(date);
+		msg.setSubject("test");
+
+		msg.setFrom("mymail@test.com");
+		msg.setText("this is a test");
+		msg.setTo("mymail@test.com");
+		mailSender.send(msg);
+	}
+
+}

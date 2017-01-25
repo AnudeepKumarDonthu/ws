@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+import java.util.HashSet;
+import java.util.Set;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class CollectionTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<String> s = new HashSet<>();
+		s.add("anudeep");
+		s.add("anudeep");
+		s.add("donthu");
+		
+	}
+
+}

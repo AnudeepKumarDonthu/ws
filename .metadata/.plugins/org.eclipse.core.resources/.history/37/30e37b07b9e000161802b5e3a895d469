@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+import java.util.Calendar;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class DayCheck {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Calendar c =Calendar.getInstance();
+		System.out.println(Calendar.SUNDAY);
+		System.out.println(Calendar.MONDAY);
+		System.out.println(Calendar.TUESDAY);
+		System.out.println(Calendar.WEDNESDAY);
+		System.out.println(Calendar.THURSDAY);
+		System.out.println(Calendar.FRIDAY);
+		System.out.println(Calendar.SATURDAY);
+	}
+
+}

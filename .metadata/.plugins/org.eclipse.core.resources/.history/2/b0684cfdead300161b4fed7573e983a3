@@ -1,0 +1,42 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+
+public class ExceptionTest {
+
+	private static ExceptionTest myObj;
+
+	static {
+		myObj = new ExceptionTest();
+	}
+
+	private ExceptionTest(){
+     
+    }
+
+	public static ExceptionTest getInstance() {
+		return myObj;
+	}
+
+	public void testMe() {
+		System.out.println("Hey.... it is working!!!");
+	}
+
+	public static void main(String a[]) {
+		ExceptionTest ms = new ExceptionTest();
+		ExceptionTest ms1 = new ExceptionTest();
+		ms.testMe();
+		System.out.println(ms);
+		System.out.println(ms1);
+		ms1.testMe();
+		
+	}
+
+
+}

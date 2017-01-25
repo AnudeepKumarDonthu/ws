@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+import java.io.File;
+import java.util.List;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class FilePractice {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		File dir= new File("C:/Users/Anudeep Kumar/Desktop/Entertainment/Videos/Telugu");
+		System.out.println(dir.isDirectory());
+		System.out.println(dir.exists());
+		String[] fileNames = dir.list();
+		/*for(String s:fileNames){
+			System.out.println(s);
+		}*/
+
+	}
+
+}

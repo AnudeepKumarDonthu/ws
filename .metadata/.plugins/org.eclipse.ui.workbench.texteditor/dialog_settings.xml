@@ -9,6 +9,7 @@
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
 			<item value="value"/>
+			<item value="hashcode"/>
 			<item value="equal"/>
 			<item value="tostring"/>
 		</list>

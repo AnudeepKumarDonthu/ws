@@ -1,0 +1,38 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+import java.util.Calendar;
+import java.util.Date;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+public class DayCheck {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Date today=new Date(117, 0, 22);
+		Calendar c =Calendar.getInstance();
+		System.out.println(Calendar.SUNDAY);
+		System.out.println(Calendar.MONDAY);
+		System.out.println(Calendar.TUESDAY);
+		System.out.println(Calendar.WEDNESDAY);
+		System.out.println(Calendar.THURSDAY);
+		System.out.println(Calendar.FRIDAY);
+		System.out.println(Calendar.SATURDAY);
+		System.out.println(today);
+		System.out.println(today.getDay());
+		if(today.getDay()<=Calendar.MONDAY ||today.getDay()>=Calendar.FEBRUARY){
+			System.out.println("I am not a week day");
+		}
+		else {
+			System.out.println("I am weekday");
+		}
+	}
+
+}
