@@ -1,0 +1,39 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+class SuperClass {
+	public void defaultMethod() {
+		System.out.println("SubClass defaultMethod");
+	}
+}
+
+class SubClass extends SuperClass {
+	public void defaultMethod() {
+		
+		System.out.println("SubClass defaultMethod");
+
+	}
+}
+interface inter{
+	
+	public abstract void Interfacemethod();
+	
+}
+
+public class OverloadingTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

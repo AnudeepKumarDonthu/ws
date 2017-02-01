@@ -3,9 +3,6 @@
  */
 package com.org.practice;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @author Anudeep Kumar
  *
@@ -43,11 +40,6 @@ public class OverloadingTest {
 		SuperClass sp = new SuperClass();
 		SubClass sb= new SubClass();
 		SuperClass spr= new SubClass();
-		List<SuperClass> l1= new ArrayList<SuperClass>();
-		List<SubClass> l2= new ArrayList<SubClass>();
-		l1.add(sb);
-		//l2.add(sp);
-//		spr.defaultMethod2();
 		sp.defaultMethod();
 		sb.defaultMethod();
 		spr.defaultMethod();

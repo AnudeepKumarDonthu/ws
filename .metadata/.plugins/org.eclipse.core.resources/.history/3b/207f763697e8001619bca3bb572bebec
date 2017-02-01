@@ -44,9 +44,9 @@ public class OverloadingTest {
 		SubClass sb= new SubClass();
 		SuperClass spr= new SubClass();
 		List<SuperClass> l1= new ArrayList<SuperClass>();
-		List<SubClass> l2= new ArrayList<SubClass>();
-		l1.add(sb);
-		//l2.add(sp);
+		List<?> l2= new ArrayList<>();
+		l1.add(sp);
+		l2.addAll(sp);
 //		spr.defaultMethod2();
 		sp.defaultMethod();
 		sb.defaultMethod();
