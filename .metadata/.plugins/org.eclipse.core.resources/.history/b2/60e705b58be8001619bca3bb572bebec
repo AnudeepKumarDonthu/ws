@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+class SuperClass {
+	public static void defaultMethod() {
+
+	}
+	public void defaultMethod(int a) {
+
+	}
+}
+
+class SubClass extends SuperClass {
+	public static void defaultMethod() {
+
+	}
+}
+
+public class OverloadingTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
