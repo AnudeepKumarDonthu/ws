@@ -21,6 +21,9 @@ public class CollectionTest1 {
 	public static void main(String[] args) {
 		Set<String> s = new TreeSet<String>();
 		Set<String> s1 = new HashSet<String>();
+		Integer i = new Integer(10);
+		String str=String.valueOf(i);
+		String str1=i.toString();
 		NavigableSet<String> s2=new TreeSet<String>();
 		s.add("donthu");
 		s.add("anudeep");

@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
 <typeInfo handle="=work/C:\/Program Files\/Java\/jdk1.8.0_112\/jre\/lib\/rt.jar&lt;java.lang(Integer.class[Integer" modifiers="49" timestamp="1478785070679"/>
+<typeInfo handle="=ExcelPractice/C:\/Program Files\/Java\/jdk1.8.0_112\/jre\/lib\/rt.jar&lt;java.util(LinkedList.class[LinkedList" modifiers="33" timestamp="1478785070679"/>
+<typeInfo handle="=ExcelPractice/C:\/Program Files\/Java\/jdk1.8.0_112\/jre\/lib\/rt.jar&lt;java.util(TreeSet.class[TreeSet" modifiers="33" timestamp="1478785070679"/>
+<typeInfo handle="=ExcelPractice/C:\/Program Files\/Java\/jdk1.8.0_112\/jre\/lib\/rt.jar&lt;java.util(AbstractSet.class[AbstractSet" modifiers="1057" timestamp="1478785070679"/>
+<typeInfo handle="=ExcelPractice/C:\/Program Files\/Java\/jdk1.8.0_112\/jre\/lib\/rt.jar&lt;java.util(AbstractCollection.class[AbstractCollection" modifiers="1057" timestamp="1478785070679"/>
+<typeInfo handle="=ExcelPractice/C:\/Program Files\/Java\/jdk1.8.0_112\/jre\/lib\/rt.jar&lt;java.lang(Comparable.class[Comparable" modifiers="1537" timestamp="1478785070679"/>
+<typeInfo handle="=ExcelPractice/C:\/Program Files\/Java\/jdk1.8.0_112\/jre\/lib\/rt.jar&lt;java.util(Comparator.class[Comparator" modifiers="1537" timestamp="1478785070679"/>
 </typeInfoHistroy>
