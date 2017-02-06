@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package com.org.practice;
+
+/**
+ * @author Anudeep Kumar
+ *
+ */
+class MethodClass {
+	void stringArg(String s) {
+		System.out.println(s+"I am String");
+
+	}
+
+	void stringBufferArg(StringBuffer s) {
+		System.out.println(s+"I am StringBuffer");
+	}
+
+	void stringBuilderArg(StringBuilder s) {
+		System.out.println(s+"I am StringBuilder");
+	}
+}
+
+public class OverloadTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
